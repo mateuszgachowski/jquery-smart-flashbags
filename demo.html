@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smartbags demo</title>
+  <style type="text/css">
+  .fade {
+    opacity: 0;
+    -webkit-transition: opacity 1s;
+    transition: opacity 1s;
+  }
+
+  .fade.in {
+    opacity: 1;
+  }
+
+  </style>
+</head>
+<body>
+  
+  <div class="flashbags-wrapper">
+    <div data-smartbag class="fade in">
+      <span data-smartbag-message>Some text in here</span>
+    </div>
+    <div data-smartbag class="fade in">
+      <span data-smartbag-message>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.</span>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="smartbags.js"></script>
+  <script type="text/javascript">
+  (function () {
+    'use strict';
+
+    $('[data-smartbag]').smartbags();
+  })();
+  </script>
+</body>
+</html>
