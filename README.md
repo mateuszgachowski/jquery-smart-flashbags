@@ -65,4 +65,4 @@ This plugin is released under MIT license, see [License File](./LICENSE)
 
 
 # Authors
-- Mateusz Gachowski [website](http://mgachowski.pl)
+- Mateusz Gachowski ([website](http://mgachowski.pl))
