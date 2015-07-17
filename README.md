@@ -5,7 +5,7 @@ Smart Flashbags system with fading out dependent on message length
 # Features
 
 - Removes flashbags depending on how it they are
-- Very lightweight
+- Very lightweight (380 B minified)
 
 # Usage
 
